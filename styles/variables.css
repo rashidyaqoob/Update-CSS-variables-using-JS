@@ -1,3 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --spacing:10px;
+    --blur:0px;
+    --color:#ffc600;
+}
+h2{
+    color: white;
+    margin: 60px 500px;
+    font-size: 25px;
+}
+.hl{
+    color: var(--color);
+}
 body{
-    background-color:purple;
+    background-color: darkmagenta;
+}
+.controls{
+    margin: 60px 380px;
+    color: white;
+}
+input,label{
+        margin-left:20px;
+}
+img{
+    margin: 10px 300px;
+    border: var(--spacing) solid var(--color);
+    filter: blur(var(--blur));
 }
